@@ -17,7 +17,7 @@ class AccountBotton extends StatelessWidget {
             color: Colors.white),
         child: OutlinedButton(
             style: ElevatedButton.styleFrom(
-                primary: Colors.black.withOpacity(0.03),
+                backgroundColor: Colors.black.withOpacity(0.03),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20))),
             onPressed: ontap,
